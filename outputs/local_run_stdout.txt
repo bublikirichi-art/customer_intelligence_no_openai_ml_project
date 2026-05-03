@@ -1,0 +1,31 @@
+{
+  "approach": "no_openai_classical_ml_ensemble",
+  "recommended_cv_macro_f1": 0.7545028683083244,
+  "recommended_threshold": -0.13235981671808456,
+  "recommended_oof_positive_count": 218,
+  "test_recommended_counts": {
+    "1": 496,
+    "0": 304
+  },
+  "segment_cv_macro_f1": 0.5574928649940155,
+  "test_segment_counts": {
+    "fit_and_sizing": 308,
+    "style_and_appearance": 184,
+    "overall_wearability_and_value": 171,
+    "material_and_quality": 137
+  },
+  "note": "No OpenAI/API calls. Uses all 400 train rows."
+}
+Wrote outputs/submission_no_openai_ensemble.csv
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/generated/interface/models.py", line 48821, in hydrate_crdt_from_proto
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/rpc/remote.py", line 747, in __call__
+  File "/tmp/tmp.9eeVjt35CN/artifact_tool_v2-2.7.5/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

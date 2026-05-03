@@ -1,0 +1,18 @@
+{
+  "approach": "no_openai_classical_ml_ensemble",
+  "recommended_cv_macro_f1": 0.7545028683083244,
+  "recommended_threshold": -0.13235981671808456,
+  "recommended_oof_positive_count": 218,
+  "test_recommended_counts": {
+    "1": 496,
+    "0": 304
+  },
+  "segment_cv_macro_f1": 0.5574928649940155,
+  "test_segment_counts": {
+    "fit_and_sizing": 308,
+    "style_and_appearance": 184,
+    "overall_wearability_and_value": 171,
+    "material_and_quality": 137
+  },
+  "note": "No OpenAI/API calls. Uses all 400 train rows."
+}
